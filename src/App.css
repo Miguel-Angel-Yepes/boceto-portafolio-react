@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Logo{
+  width: auto;
+  max-height: 80%;
+}
+
+.Bloque1{
+  margin-top: 60px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.ContenedorIcon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icono{
+    width: 35%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.Titulo2{
+  margin-bottom: 20px;
+}
+
+.Bloque2{
+  padding: 40px;
+  margin: 3% 0%;
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.Contenedor1{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  background-color: black;
+  position: relative;
+}
+
+.Titulos{
+  width: 100%;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+.Titulo1{
+  color: white;
+  font-size: 5vw;
+}
+
+.Subtitulo1{
+  background-color: yellow;
+  font-size: 2vw;
+  margin-top: 5%;
+}
+
+.Contenedor2{
+  height: auto;
+  width: 70%;
+}
+
+.imagen1{
+  width: 100%;
+  height: 100%;
+}
+
+.SobreMi{
+  display: flex;
+  flex-direction: row;
+}
+
+.Contenedor3{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Contenedor4{
+  width: 50%;
+  padding: 4%;
+}
+
+.Parrafo1{
+  font-size: 2vw;
+  text-align: center;
+  padding: 5%;
+}
+
+.Imagen2{
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.Titulo3{
+  text-align: center;
+  font-size: 5vw;
+  color: black;
+  margin: 20px;
+}
+
+.VentanaModal{
+  display: none;
+}
+
+.show{
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.verMas{
+  background-color: #030303;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 2% 5%;
+  font-size: 1.2vw;
+  cursor: pointer;
+  width: 20%;
+}
+
+.verMas:hover {
+  background-color: #171b1f;
+}
+
+.fondoModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  height: auto;
+}
+
+
+
+.modal p {
+  font-size: 1.5vw;
+  margin-bottom: 4%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.modal img {
+  width: 30%;
+  height: auto;
+  margin: 4% 0%; 
+  border-radius: 8px;
+}
+
+/* ------------------------------ */
+
+.CajaFooter{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+}
+
+.CajaFlex{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.FlexFooter{
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ParrafoSubIcono{
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.ParrafoSubIcono2{
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 90%;
+  padding: 20px;
+  font-size: 1.3vw;
+}
+
+.SubIcono{
+  height: auto;
+  margin-bottom: 10px;
+  width: 4vw;
+  margin-right: 5px;
+  transition: width 1s;
+}
+
+.SubIcono:hover{
+  width: 4.3vw;
+  transition: width 1s;
+}
+
+.TituloFooter{
+  color: white;
+  margin-top: 3%;
+  font-weight: normal;
+  font-size: 3vw;
+}
+
+.LineaFooter{
+  color: white;
+  margin-top: -2%;
+  font-size: 3vw; 
+}
+
+.BtnIzquierda{
+  cursor: pointer;
+  background-color: #33333063;
+  color: black;
+  width: 10%;
+  height: 100%;
+  border:  none;
+  font-Weight: bold;
+  font-size: 4vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.BtnDerecha{
+  cursor: pointer;
+  background-color: #33333063;
+  color: black;
+  width: 10%;
+  height: 100%;
+  border:  none;
+  font-Weight: bold;
+  font-size: 4vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.ImagenSlider{
+  width: 100%;
+  max-height: 100%;
+}
+
+.ContVentanaSlider{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.ContenedorSlider{
+  width: 50%;
+  max-height: 100%; 
+  background-color: #2c1404; 
+  display: flex; 
+  flex-Direction: column; 
+  align-Items: center; 
+  justify-Content: center;
+  position: relative;
+  margin-right: 5%;
+} 
+
+.Contenedor4{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0% 2.5%;
+}
+
+.TituloSlider{
+  font-size: 3.3vw;
+}
+
+.FondoSlider{
+  display:flex;
+  flex-Direction:column;
+  align-Items:center; 
+  gap:20px;
+  margin-bottom: 5%;
+}
+
+.ContenedorSlider{
+  width: 50%;
+  max-height: 100%; 
+  background-color: #2c1404; 
+  display: flex; 
+  flex-Direction: column; 
+  align-Items: center; 
+  justify-Content: center;
+  position: relative;
+  margin-left: 5%;
+} 
+
+
